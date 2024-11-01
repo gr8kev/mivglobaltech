@@ -73,7 +73,7 @@ img {
 
 /* IMAGE ZOOM */
 .image-zoom {
-  position: relative;
+  position: relative !important;
   /* overflow: hidden; */
 }
 
@@ -94,6 +94,9 @@ img {
 .navbar {
   background: #000000;
   transition: all 0.3s ease !important;
+}
+.navbar-nav .nav-link.active {
+  color: var(--c-brand) !important;
 }
 
 .navbar-toggler {
@@ -228,7 +231,7 @@ img {
       rgba(var(--c-brand-rgb), 0.8),
       rgba(var(--c-brand-rgb), 0.8)
     ),
-    url(../images/counter.jpg);
+    url(./assets/images/counter.jpg);
   background-position: center;
   background-size: cover;
 }
