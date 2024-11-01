@@ -6,6 +6,8 @@ import Counter from "../../component/Home/Counter";
 import Portfolio from "../../component/Home/Portfolio";
 import Testimonials from "../../component/Home/Testimonials";
 import Team from "../../component/Home/Team";
+import Contact from "../../component/Home/Contact";
+import Blog from "../../component/Home/Blog";
 
 export const Home = () => {
   return (
@@ -17,6 +19,8 @@ export const Home = () => {
       <Portfolio />
       <Testimonials />
       <Team />
+      <Contact />
+      <Blog />
     </div>
   );
 };

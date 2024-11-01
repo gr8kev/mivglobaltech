@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "./component/Navbar";
 import Counter from "./component/Home/Counter";
+import Footer from "./component/Home/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -31,6 +32,7 @@ const App = () => {
     <div>
       <Navbar />
       <Home />
+      <Footer />
     </div>
   );
 };

@@ -15,7 +15,7 @@
 }
 /* VARIABLES */
 :root {
-  --c-dark: #212529;
+  --c-dark: #333;
   --c-brand: #4e57d4;
   --c-brand-light: #6970dd;
   --c-brand-rgb: 78, 87, 212;
@@ -53,9 +53,9 @@ h6,
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: var(--c-brand);
-  transition: var(--transition);
+  transition: var(--transition) !important;
 }
 
 img {
@@ -92,7 +92,7 @@ img {
 
 /* NAVBAR */
 .navbar {
-  background: #000000;
+  background: #333;
   transition: all 0.3s ease !important;
 }
 .navbar-nav .nav-link.active {
@@ -137,13 +137,13 @@ img {
 }
 
 .btn-brand {
-  background-color: var(--c-brand);
+  background-color: var(--c-brand) !important;
   border-color: var(--c-body) !important;
   color: white !important;
 }
 
 .btn-brand:hover {
-  background-color: var(--c-brand-light);
+  background-color: var(--c-brand-light) !important;
   border-color: var(--c-brand-light) !important;
   color: white !important;
 }
