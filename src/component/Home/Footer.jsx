@@ -3,7 +3,7 @@ import logoWhite from "./../../assets/images/mivlogo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark">
+    <footer className="footer">
       <div className="footer-top">
         <div className="container">
           <div className="row gy-5">
