@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { Home } from "./pages/Home/Home";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./component/Navbar";
 
 const App = () => {
@@ -15,6 +17,10 @@ const App = () => {
     } else {
       console.error("Bootstrap's ScrollSpy is not loaded.");
     }
+  }, []);
+
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
   }, []);
 
   return (
